@@ -1,3 +1,21 @@
-﻿Connect "Windows VM"
+﻿
 
-WaitFor 20, "windows"
+repeat until the status of ConnectionInfo("Windows VM") is "Connected"
+	
+	try -- Try/catch allow the execution to continue even if the Connect command fails
+		
+		Connect "Windows VM"
+		
+	catch -- Catches the exception, logs a warning, and then waits 1 minute to allow the SUT more time to become available before attempting to connect again
+		
+		LogWarning "SUT not yet available after restart. Waiting 30 seconds before trying to connect again."
+		
+		Wait 30
+		
+	end try
+	
+	If the RepeatIndex is greater than 3 then throw "Unable to connect to SUT.", "SUT is not available after reboot." -- Checks the number of times the repeat loop has iterated and if greater than 3, then throws an exception to exit the execution
+	
+end repeat
+
+waitFor 50, "windows"

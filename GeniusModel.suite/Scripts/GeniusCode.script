@@ -109,12 +109,9 @@ end searchForItem
 to handle openNopCommerce with browser
 	TypeText WindowsKey,"r"-- press the windows key and "r" together
 	Wait 5
-	TypeText browser -- type in chrome as the browser we want to use
+	TypeText browser && "http://nopcommerce.testplant.com/" 
 	TypeText return -- press enter on the keyboard
-	WaitFor 20,"RefreshIcon" -- wait for the refresh icon on the browser to appear
-	TypeText "http://nopcommerce.testplant.com/" -- enter the URL we want to navigate to
-	TypeText return -- press enter on the keyboard
-	WaitFor 20,"RefreshIcon"
+	WaitFor 20,"RefreshIcon" -- wait for the refresh icon on the browser to 
 end openNopCommerce
 
 -----------------------------------
@@ -222,7 +219,13 @@ end verify_page
 
 -----------------------------------
 
+// Close window
+
+to handle close
+	typetext altKey, f4
+end close
 
 
+-----------------------------------
 
 

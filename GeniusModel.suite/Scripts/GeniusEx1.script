@@ -35,9 +35,5 @@ GeniusCode.refresh_page
 
 Handlers2.Wishlist_Click
 Handlers2.verify_wishlist_page
-
-GeniusCode.hoverCategory "Computers"
-GeniusCode.select_subcategory "Notebooks"
-GeniusCode.add_to_cart
-
+GeniusCode.close
 

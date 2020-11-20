@@ -5,9 +5,11 @@
         3840,
         2160
     );
+    CropRectangle = "24,15,58,50";
     HasAlpha = 1;
     HotSpotX = 39;
     HotSpotY = 31;
+    ImageDescription = {length = 0, bytes = 0x};
     LastKnownLocationX = 0;
     LastKnownLocationY = 0;
     OriginalLocationX = 7;
