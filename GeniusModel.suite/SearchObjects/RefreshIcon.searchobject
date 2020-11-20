@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1605105555.3056021,
+  "ocrcapturestring" : "c",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_7",
+      "connectionportnum" : 6002,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "c",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[14,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "RefreshIcon.png",
+      "capturerect" : [
+        71,
+        41,
+        28,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1605000019.5262179,
+  "lastfoundlocation" : [
+    746,
+    382,
+    16,
+    16
+  ],
+  "originalcapturelocation" : [
+    71,
+    41,
+    28,
+    23
+  ],
+  "lastfounddate" : 1605534467.412873,
+  "name" : "RefreshIcon"
+}

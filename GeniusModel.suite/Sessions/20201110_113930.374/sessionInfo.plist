@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[859, 644, 987, 676], elementName:"ShoppingCart", elementType:"Checkpoint", eventNum:-1, folderPath:"", imageName:"Shopping cart", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_OcrText", OCRText:"Shopping", ocrTextSettings:{ValidWords:"Shopping cart"}, screenShotFile:"Screen0001.png", searchType:"Smoothed for Text", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[1154, 163, 1337, 200], elementName:"UpdateShoppingCart", elementType:"Button", eventNum:-1, folderPath:"", imageName:"Updateshopping", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_OcrText", OCRText:"Update shopping cart", ocrTextSettings:(:), screenShotFile:"Screen0001.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[1347, 163, 1527, 200], elementName:"Continue shopping", elementType:"Button", eventNum:-1, folderPath:"", imageName:"Continueshopping", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_OcrText", OCRText:"Continue shopping", screenShotFile:"Screen0001.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>2</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>2010241818</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

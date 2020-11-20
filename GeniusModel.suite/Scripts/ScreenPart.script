@@ -1,0 +1,47 @@
+﻿function ScreenPart Portion
+
+	// Set up an easy-to-maintain property list that stores the necessary multipliers for the specified screen portion parameter value
+	
+	set screenPortions to {
+		
+		TopHalf: [[0,0],[1,.5]],
+		
+		BottomHalf: [[0,.5],[1,1]],
+		
+		LeftHalf: [[0,0],[.5,1]],
+		
+		RightHalf: [[.5,0],[1,1]],
+		
+		HorizontalMiddle: [[0,.25],[1,.75]],
+		
+		VerticalMiddle:[[.25,0],[.75,1]],
+		
+		TopLeftQuadrant:[[0,0],[.5,.5]],
+		
+		TopRightQuadrant:[[.5,0],[1,.5]],
+		
+		BottomLeftQuadrant:[[0,.5],[.5,1]],
+		
+		BottomRightQuadrant:[[.5,.5],[1,1]],
+
+		Center:[[.25,.25],[.75,.75]],
+
+		CentreApp: [[.1,.1],[.9,.9]],
+		
+		TopThird: [[0, 0],[1,.33]],
+
+	}
+	
+	set multiplier to screenPortions.(Portion) // Retrieves the value for the key in the property list. The name of the key is passed as a parameter into the function.
+	
+	// Error handling is needed in the event that an unrecognized parameter is passed to the function
+	
+	if multiplier is empty then
+		
+		throw "Parameter error", Portion && "is not a recognized screen portion."
+		
+	end if
+	
+	return (the remoteScreenSize,the remotescreenSize) * multiplier
+	
+End ScreenPart

@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1605864695.312012,
+  "testlocationdata" : [
+    {
+      "name" : "windows.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows VM",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[39,31]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.214.128",
+      "capturerect" : [
+        7,
+        2088,
+        78,
+        62
+      ]
+    }
+  ],
+  "createddate" : 1605864695.312011,
+  "lastfoundlocation" : [
+    7,
+    2088,
+    78,
+    62
+  ],
+  "originalcapturelocation" : [
+    7,
+    2088,
+    78,
+    62
+  ],
+  "lastfounddate" : 1605865492.057966,
+  "name" : "windows"
+}

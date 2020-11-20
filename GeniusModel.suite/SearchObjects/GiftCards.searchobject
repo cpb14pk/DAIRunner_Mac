@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1604944719.6143489,
+  "ocrcapturestring" : "Gift Cards",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        1338,
+        310,
+        86,
+        19
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_49",
+        "HotSpot" : "[43,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Gift Cards",
+      "name" : "GiftCards.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944719.614347,
+  "lastfoundlocation" : [
+    1338,
+    310,
+    86,
+    19
+  ],
+  "originalcapturelocation" : [
+    1338,
+    310,
+    86,
+    19
+  ],
+  "lastfounddate" : 1605276074.1034589,
+  "name" : "GiftCards"
+}

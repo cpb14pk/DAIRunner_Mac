@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1604944717.134285,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        1414,
+        113,
+        19,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[9,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "ShoppingCart.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944717.134285,
+  "lastfoundlocation" : [
+    1414,
+    113,
+    19,
+    22
+  ],
+  "originalcapturelocation" : [
+    1414,
+    113,
+    19,
+    22
+  ],
+  "lastfounddate" : 1605018142.117379,
+  "name" : "ShoppingCart"
+}

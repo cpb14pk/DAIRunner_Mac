@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1604944719.3073411,
+  "ocrcapturestring" : "Books",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        1105,
+        310,
+        54,
+        19
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_49",
+        "HotSpot" : "[27,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Books",
+      "name" : "Books.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944719.3073401,
+  "lastfoundlocation" : [
+    1105,
+    310,
+    54,
+    19
+  ],
+  "originalcapturelocation" : [
+    1105,
+    310,
+    54,
+    19
+  ],
+  "lastfounddate" : 1605276074.09761,
+  "name" : "Books"
+}

@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1604944718.3804011,
+  "ocrcapturestring" : "Apparel",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        779,
+        310,
+        67,
+        23
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_49",
+        "HotSpot" : "[33,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Apparel",
+      "name" : "Apparel.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944718.3803999,
+  "lastfoundlocation" : [
+    779,
+    310,
+    67,
+    23
+  ],
+  "originalcapturelocation" : [
+    779,
+    310,
+    67,
+    23
+  ],
+  "lastfounddate" : 1605276074.0957398,
+  "name" : "Apparel"
+}

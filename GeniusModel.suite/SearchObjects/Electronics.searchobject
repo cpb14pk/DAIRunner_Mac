@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1604944718.0649869,
+  "ocrcapturestring" : "Electronics",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        631,
+        310,
+        92,
+        19
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_49",
+        "HotSpot" : "[46,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Electronics",
+      "name" : "Electronics.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944718.0649869,
+  "lastfoundlocation" : [
+    631,
+    310,
+    92,
+    19
+  ],
+  "originalcapturelocation" : [
+    631,
+    310,
+    92,
+    19
+  ],
+  "lastfounddate" : 1605276074.1026759,
+  "name" : "Electronics"
+}

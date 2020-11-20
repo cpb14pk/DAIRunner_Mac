@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URLparameters</key>
+	<array>
+		<dict>
+			<key>checkedNumber</key>
+			<true/>
+			<key>param</key>
+			<string></string>
+			<key>showCheckedNumber</key>
+			<true/>
+			<key>value</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>authenticationType</key>
+	<string>None</string>
+	<key>httpVerb</key>
+	<string>POST</string>
+	<key>oauth1Token</key>
+	<string></string>
+	<key>password</key>
+	<string>*6P_Y$/7;6G$W</string>
+	<key>requestBody</key>
+	<string>{"channel": "#proj-test-webhooks",
+"username": "webhookbot",
+"text": "Hello World"
+}</string>
+	<key>requestBodyFormat</key>
+	<string>JSON (application/json)</string>
+	<key>requestHeaders</key>
+	<string>&lt;![CDATA[]]&gt;</string>
+	<key>requests</key>
+	<string></string>
+	<key>testResults</key>
+	<string></string>
+	<key>testScript</key>
+	<string>set MyResponse to api()
+Log the keys of MyResponse 
+put MyResponse's requestbody
+assert that myResponse's responseTime is less than 500 milliseconds with warning 
+assert that MyResponse's responseBody is "ok"
+
+Log MyResponse</string>
+	<key>url</key>
+	<string>https://hooks.slack.com/services/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</string>
+	<key>userName</key>
+	<string>philippa.merrill@eggplantsoftware.com</string>
+</dict>
+</plist>

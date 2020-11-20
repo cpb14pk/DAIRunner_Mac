@@ -1,0 +1,33 @@
+{
+  "originalcapturelocation" : [
+    18,
+    8,
+    22,
+    18
+  ],
+  "createddate" : 1604944716.5066218,
+  "lastmodifieddate" : 1604944732.102627,
+  "name" : "image0001",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        18,
+        8,
+        22,
+        18
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[11,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "deleted" : true,
+      "name" : "image0001.png",
+      "type" : 1
+    }
+  ]
+}

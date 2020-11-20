@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[89, 942, 189, 967], elementName:"USDollar", eventNum:-1, folderPath:"", imageName:"USDollar", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", OCRText:"US Dollar", screenShotFile:"Screen0002.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1057, 946, 1123, 963], elementName:"Wishlist", elementType:"Button", eventNum:-1, folderPath:"", imageName:"Wishlist0", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_OcrText", OCRText:"Wishlist", ocrTextSettings:(:), screenShotFile:"Screen0002.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[1151, 945, 1170, 967], elementName:"image0001", elementType:"None", eventNum:-1, folderPath:"", imageName:"image0001", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[92, 842, 165, 897], elementName:"LogoPresent", elementType:"Checkpoint", eventNum:-1, folderPath:"", imageName:"image0002", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[97, 590, 205, 615], elementName:"Categories", eventNum:-1, folderPath:"", imageName:"Categories", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", OCRText:"Categories", screenShotFile:"Screen0002.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[993, 946, 1031, 963], elementName:"LogIn", elementType:"Button", eventNum:-1, folderPath:"", hotSpot:[1012, 32.5], imageName:"Login", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_OcrText", OCRText:"Log in", screenShotFile:"Screen0002.png", searchType:"Smoothed for Text", skipStep:False, userModified:False, usingTempImageName:True, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>2010241818</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

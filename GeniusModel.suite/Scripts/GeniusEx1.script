@@ -1,0 +1,43 @@
+﻿// Nop commerce
+
+// Test Requirement 1
+// At any point in the test, the user is able to navigate back to the home screen
+
+// Test Requirement 2
+// User is able to search for a product and add that product to the basket
+// Verify item is in the basket
+
+// Test Requirement 3
+// User must be able to navigate to the search bar to search for an item 
+
+(*
+GeniusCode.openNopCommerce "chrome"
+*)
+LaunchSUT
+
+GeniusCode.openNopCommerce "chrome"
+
+GeniusCode.hoverCategory "Computers"
+GeniusCode.select_subcategory "Notebooks"
+GeniusCode.add_to_cart
+
+GeniusCode.searchForItem "Android"
+GeniusCode.choose_other_category "Digital downloads"
+GeniusCode.hoverCategory "Computers"
+GeniusCode.select_subcategory "Software"
+GeniusCode.add_to_cart
+
+GeniusCode.hoverCategory "Electronics"
+GeniusCode.select_subcategory "Others"
+GeniusCode.add_to_cart
+
+GeniusCode.refresh_page
+
+Handlers2.Wishlist_Click
+Handlers2.verify_wishlist_page
+
+GeniusCode.hoverCategory "Computers"
+GeniusCode.select_subcategory "Notebooks"
+GeniusCode.add_to_cart
+
+

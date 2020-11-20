@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1604944719.009542,
+  "ocrcapturestring" : "downloads",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        958,
+        310,
+        90,
+        19
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_49",
+        "HotSpot" : "[45,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "downloads",
+      "name" : "downloads.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944719.009542,
+  "lastfoundlocation" : [
+    958,
+    310,
+    90,
+    19
+  ],
+  "originalcapturelocation" : [
+    958,
+    310,
+    90,
+    19
+  ],
+  "lastfounddate" : 1605276074.101799,
+  "name" : "downloads"
+}

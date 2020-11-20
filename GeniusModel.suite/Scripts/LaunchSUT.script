@@ -1,0 +1,3 @@
+﻿Connect "Windows VM"
+
+WaitFor 20, "windows"

@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1604944718.7008271,
+  "ocrcapturestring" : "Digital",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        903,
+        310,
+        54,
+        23
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_49",
+        "HotSpot" : "[27,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "Digital",
+      "name" : "Digital.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944718.7008271,
+  "lastfoundlocation" : [
+    903,
+    310,
+    54,
+    23
+  ],
+  "originalcapturelocation" : [
+    903,
+    310,
+    54,
+    23
+  ],
+  "lastfounddate" : 1605276074.1008611,
+  "name" : "Digital"
+}

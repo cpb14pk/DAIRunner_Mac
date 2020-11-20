@@ -1,0 +1,67 @@
+﻿(*** Autosnippet script "AutoScan2" generated 2020-11-10 by Philippa Merrill. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Button "Wishlist" (using OCR) *)
+
+to handle Wishlist_Click
+	Click Text:"Wishlist", waitFor:8
+end Wishlist_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "LogoPresent" *)
+
+to handle LogoPresent_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"nopLogo", waitFor:duration)
+end LogoPresent_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Button "LogIn" (using OCR) *)
+
+to handle LogIn_Click
+	Click Text:"Log in", waitFor:8
+end LogIn_Click
+
+-----------------------------------
+
+(* Autosnippets for Checkpoint "ShoppingCart" (using OCR) *)
+
+to handle ShoppingCart_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(Text:"Shopping cart", ValidWords:"Shopping cart", waitFor:duration)
+end ShoppingCart_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Button "UpdateShoppingCart" (using OCR) *)
+
+to handle UpdateShoppingCart_Click
+	Click Text:"Update shopping cart", waitFor:8
+end UpdateShoppingCart_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Continue shopping" (using OCR) *)
+
+to handle Continue_shopping_Click
+	Click Text:"Continue shopping", waitFor:8
+end Continue_shopping_Click
+
+-----------------------------------
+
+to handle verify_wishlist_page
+	return imageFound(Text: "Wishlist", SearchRectangle: ScreenPart("HorizontalMiddle"), waitFor: 8)
+	
+end verify_wishlist_page
+
+(*** End of Autosnippet script AutoScan2.script ***)
+

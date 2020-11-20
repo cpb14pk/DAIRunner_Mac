@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1605008088.6095271,
+  "ocrcapturestring" : "US Dollar",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        89,
+        20,
+        100,
+        25
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_39",
+        "HotSpot" : "[50,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "US Dollar",
+      "name" : "USDollar.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1605008088.6095271,
+  "lastfoundlocation" : [
+    352,
+    113,
+    100,
+    25
+  ],
+  "originalcapturelocation" : [
+    89,
+    20,
+    100,
+    25
+  ],
+  "lastfounddate" : 1605018142.118582,
+  "name" : "USDollar"
+}

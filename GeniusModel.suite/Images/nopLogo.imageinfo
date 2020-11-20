@@ -1,0 +1,20 @@
+﻿{
+    CaptureDate = "2020-11-16 14:59:26 +0000";
+    CaptureHost = "Windows VM";
+    CaptureScreenSize =     (
+        3840,
+        2160
+    );
+    HasAlpha = 1;
+    HotSpotX = 70;
+    HotSpotY = 54;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 716;
+    OriginalLocationY = 300;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    tags =     (
+    );
+}

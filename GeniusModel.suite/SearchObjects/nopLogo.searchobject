@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1604944719.9376559,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        359,
+        186,
+        64,
+        48
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[31,25]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "nopLogo.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1604944719.937654,
+  "lastfoundlocation" : [
+    359,
+    186,
+    64,
+    48
+  ],
+  "originalcapturelocation" : [
+    359,
+    186,
+    64,
+    48
+  ],
+  "lastfounddate" : 1605533929.607053,
+  "name" : "nopLogo"
+}

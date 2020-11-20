@@ -1,0 +1,228 @@
+﻿(*** Autosnippet script "GeniusCode" generated 2020-11-09 by Philippa Merrill. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Button "ShoppingCart" *)
+
+to handle ShoppingCart_Click
+	Click imageName:"ShoppingCart", waitFor:8
+end ShoppingCart_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Computers" *)
+
+to handle Computers_Click
+	Click imageName:"Computers", waitFor:8
+end Computers_Click
+
+-----------------------------------
+
+(* Autosnippets for Button "Electronics" *)
+
+to handle Electronics_Click
+	Click imageName:"Electronics", waitFor:8
+end Electronics_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Apparel" *)
+
+to handle Apparel_Click
+	Click imageName:"Apparel", waitFor:8
+end Apparel_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Digital" *)
+
+to handle Digital_Click
+	Click imageName:"Digital", waitFor:8
+end Digital_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "downloads" *)
+
+to handle downloads_Click
+	Click imageName:"downloads", waitFor:8
+end downloads_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Books" *)
+
+to handle Books_Click
+	Click imageName:"Books", waitFor:8
+end Books_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "GiftCards" *)
+
+to handle GiftCards_Click
+	Click imageName:"GiftCards", waitFor:8
+end GiftCards_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Jewelry" *)
+
+to handle Jewelry_Click
+	Click imageName:"Jewelry", waitFor:8
+end Jewelry_Click
+
+-----------------------------------
+
+
+(*** End of Autosnippet script GeniusCode.script ***)
+
+// Click Home Nop Commerce Logo 
+
+to handle Home_Click
+	Click imageName:"nopLogo", waitFor:8
+end Home_Click
+
+// Search For Item 
+to handle searchForItem with item
+	put ImageLocation(text:"SEARCH", caseSensitive:true, searchRectangle: ScreenPart("TopHalf"), waitFor:10) into searchButton
+	
+	put (searchButton - [60,0]) into fieldLocation
+	
+	Click fieldLocation
+	TypeText item
+	click searchButton
+	
+end searchForItem
+
+// Open Nop Commerce
+
+to handle openNopCommerce with browser
+	TypeText WindowsKey,"r"-- press the windows key and "r" together
+	Wait 5
+	TypeText browser -- type in chrome as the browser we want to use
+	TypeText return -- press enter on the keyboard
+	WaitFor 20,"RefreshIcon" -- wait for the refresh icon on the browser to appear
+	TypeText "http://nopcommerce.testplant.com/" -- enter the URL we want to navigate to
+	TypeText return -- press enter on the keyboard
+	WaitFor 20,"RefreshIcon"
+end openNopCommerce
+
+-----------------------------------
+
+// Select a Category 
+
+to handle hoverCategory with mainCategory
+	(*	set bannerRectangle to [imageLocation(nopLogo), bottomRight of ScreenPart("TopThird")]*)
+	set bannerRectangle to [714,450,3090,849]
+	MoveTo {text: mainCategory, SearchRectangle:bannerRectangle, waitFor:10}
+end hoverCategory
+
+-----------------------------------
+
+// Select from dropdown 
+
+to handle select_subcategory subcategory
+
+	(*	if imageFound(text: "Categories", searchRectangle: screenPart("HorizontalMiddle")) 
+		put the top of ImageRectangle(text: "Categories") into bottom
+		put the remotescreensize's width into right 
+		
+		set dropdownBannerRectangle to [imageLocation(nopLogo), [right, bottom]]*)
+	
+	set dropdownBannerRectangle to [925,498,3078,871]
+	MoveTo {text: subcategory, SearchRectangle: dropdownBannerRectangle, waitFor:20, ValidCharacters:"*"}
+	Click {text: subcategory, SearchRectangle: dropdownBannerRectangle, waitFor:20, ValidCharacters:"*"}
+
+	// Re-set the search rectangle
+	set the SearchRectangle to empty
+	
+	repeat until ImageFound(imageName:"nopLogo", waitFor: 5)
+		ScrollWheelUp 5
+		
+		if repeatIndex() > 10
+			Log "Couldn't find 'Nop Commerce' Logo"
+		end if
+	end repeat
+	
+end select_subcategory
+
+-----------------------------------
+
+
+// Refresh Page 
+
+to handle refresh_page
+	WaitFor 10, "RefreshIcon"
+	Click "RefreshIcon"
+	WaitFor 10, "RefreshIcon"
+end refresh_page
+
+-----------------------------------
+
+// Select 'Add to Cart'
+
+to handle add_to_cart
+	set SearchRectangle to RemoteScreenSize()
+	
+	repeat until ImageFound(text:"ADD TO CART", wait:0)
+		ScrollWheelDown 5
+		
+		if repeatIndex() > 10
+			Log "Couldn't find 'Add to Cart' buttons"
+		end if
+	end repeat
+	
+	put EveryImageLocation(text: "ADD TO CART") into ItemLocations 
+	put any item of itemLocations into randomItemLocation
+	Click randomItemLocation
+	
+	set the SearchRectangle to empty
+	
+	repeat until ImageFound("nopLogo")
+		ScrollWheelUp  4		
+		if repeatIndex > 10
+			Log "Couldn't find 'Nop Commerce' Logo"
+		end if
+	end repeat
+	
+end add_to_cart
+
+
+-----------------------------------
+// to handle choosing another category 
+
+to handle choose_other_category category
+
+	set categorySearchRectangle to [534,829,1349,1558]
+	Click ImageLocation(text:category, searchRectangle: categorySearchRectangle, waitFor: 5)
+	set verificationRectangle to [1082,660,3085,1029]
+	WaitFor 5, text: category, searchRectangle: verificationRectangle
+	
+	
+end choose_other_category
+-----------------------------------
+
+// Verify right page is displayed
+
+to handle verify_page category 
+	set verificationRectangle to [1082,660,3085,1029]
+	WaitFor 5, text: category, searchRectangle: verificationRectangle
+end verify_page
+
+
+-----------------------------------
+
+
+
+
+
