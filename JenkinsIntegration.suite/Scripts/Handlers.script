@@ -1,0 +1,25 @@
+﻿
+to handle step_1
+	Log "Step 1 reached"
+	
+end step_1
+
+to handle step_2
+	Log "Step 2 reached"
+	
+end step_2
+
+to handle step_3
+	Log "Step 3 reached"
+	
+end step_3
+
+to handle step_4
+	Log "Step 4 reached"
+	
+end step_4
+
+to handle step_5
+	LogSuccess "App exited"
+
+end step_5

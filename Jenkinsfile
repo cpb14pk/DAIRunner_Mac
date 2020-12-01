@@ -19,7 +19,7 @@ pipeline {
     
         stage('Run Tests'){
         steps {
-            sh '/Applications/Eggplant.app/Contents/MacOS/runscript GeniusModel.suite/Scripts/GeniusEx1.script -CommandLineOutput yes'
+            sh './DAIrunner'
         }
     }
     

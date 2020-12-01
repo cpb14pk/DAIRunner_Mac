@@ -1,0 +1,23 @@
+{
+    "testExecutionKey": "TEST-10",
+    "info" : {
+        "summary" : "Execution of automated tests for release v1.0 - update via API",
+        "description" : "This execution is automatically created when importing execution results from an external source",
+        "version" : "1.0.0",
+        "user" : "philippa",
+        "revision" : "1.0.0",
+        "startDate" : "2020-11-18T12:30:35+01:00",
+        "finishDate" : "2020-11-19T08:53:00+01:00",
+        "testPlanKey" : "TEST-11",
+        "testEnvironments": ["TestEnvironmentA"]
+    },
+    "tests" : [
+        {
+            "testKey" : "TEST-7",
+          "start" : "2020-11-18T12:30:35+01:00",
+          "finish" : "2020-11-19T08:53:00+01:00",
+            "comment" : "Successful execution",
+            "status" : "PASSED"
+        }
+     ]
+}
