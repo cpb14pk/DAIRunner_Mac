@@ -9,16 +9,11 @@ pipeline {
                 echo 'Build starting'
             }
         }
-        
-    stage('Checkout') {
-    steps {
-        git branch: 'JenkinsBuild/TEST-12', url: 'https://github.com/cpb14pk/EggplantRepo.git'
-    }
-    }
 
     
         stage('Run Tests'){
         steps {
+            sh 'chmod +x DAIrunner'
             sh './DAIrunner'
         }
     }
