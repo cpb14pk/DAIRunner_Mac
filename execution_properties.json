@@ -1,7 +1,7 @@
 {
     "DAI": [{
-        "server": "https://eggplant-partners.dai.eggplant.cloud/",
+        "server": "http://192.168.214.128:8000/",
         "name": "philippa.merrill@eggplantsoftware.com",
-        "password": "p1an0K3y$28"
+        "password": "WaitForIt2303"
     }]
 }

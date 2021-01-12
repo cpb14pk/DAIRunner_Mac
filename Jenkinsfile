@@ -1,5 +1,3 @@
-
-
 pipeline {
     agent any
 
@@ -10,23 +8,12 @@ pipeline {
             }
         }
 
-    
         stage('Run Tests'){
         steps {
+		echo 'Starting DAI Runner...'
             sh 'chmod +x DAIrunner'
-            sh './DAIrunner'
+            sh './DAIrunner -v testconfig TestConfigIntegration'
         }
     }
-    
-        stage('Build') {
-        steps {
-            echo 'Building...'
-   }
-        post {
-            always {
-                jiraSendBuildInfo site: 'eggplant-tc-test-env.atlassian.net'
-       }
-   }
-}
 }
 }
