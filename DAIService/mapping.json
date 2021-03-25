@@ -1,0 +1,24 @@
+{
+    "xray": {
+        "summary": "Execution of Eggplant DAI automated test",
+        "description": "This execution has been automatically created from Eggplant DAI",
+        "version": "1.0.0",
+        "user": "philippa",
+        "revision": "1.0.0",
+        "testPlanKey": {
+            "JOOST-1" : ["TEST-16"],
+            "TEST-11": ["TEST-14", "TEST-15"],
+            "XRAY-6": ["XRAY-3", "XRAY-5", "XRAY-4"],
+            "XRAY-7": ["XRAY-8", "XRAY-9", "XRAY-10"],
+            "DEFAULT" : "TEST-11",
+            "DEMO" : "TEST-11"
+        },
+        "testEnvironments": ["TestEnvironmentA"],
+        "teststatus": {
+            "ERROR": "FAILED",
+            "PASSED": "PASSED",
+            "INCOMPLETE": "EXECUTING",
+            "DEFAULT": "TO DO"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "appium-espresso-driver": "^1.42.0"
+  }
+}
