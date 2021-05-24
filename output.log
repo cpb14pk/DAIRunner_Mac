@@ -1,0 +1,521 @@
+2021-05-24 10:24:09,451 | INFO    | Credentials specified on command line
+2021-05-24 10:24:09,451 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:24:09,452 | INFO    | Start execution of a Test Config
+2021-05-24 10:24:09,452 | INFO    | Eggplant DAI server http://192.168.214.170:8000/
+2021-05-24 10:24:09,452 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-24 10:24:09,452 | INFO    | Testconfig: IntegrationConfig
+2021-05-24 10:24:09,559 | INFO    | GUI Report at: http://192.168.214.170:8000/controller/results/runs/cdea2ad2-fa5b-47bd-807d-f77fa47237ff
+2021-05-24 10:24:09,559 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': 'cdea2ad2-fa5b-47bd-807d-f77fa47237ff'}
+2021-05-24 10:24:09,596 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-24 10:24:09,597 | INFO    | Command line options specified: Namespace(verbosity=1, action='testconfig', URL='http://192.168.214.170:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-24 10:24:27,472 | INFO    | Credentials specified on command line
+2021-05-24 10:24:27,472 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:24:27,473 | INFO    | Start execution of a Test Config
+2021-05-24 10:24:27,473 | INFO    | Eggplant DAI server http://192.168.214.170:8000/
+2021-05-24 10:24:27,473 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-24 10:24:27,473 | INFO    | Testconfig: IntegrationConfig
+2021-05-24 10:24:27,597 | INFO    | GUI Report at: http://192.168.214.170:8000/controller/results/runs/20e87ae6-27ba-477f-81eb-c3977596a9df
+2021-05-24 10:24:27,597 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': '20e87ae6-27ba-477f-81eb-c3977596a9df'}
+2021-05-24 10:24:27,611 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-24 10:24:27,611 | INFO    | Command line options specified: Namespace(verbosity=1, action='testconfig', URL='http://192.168.214.170:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-24 10:24:57,698 | INFO    | Credentials specified on command line
+2021-05-24 10:24:57,698 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:24:57,698 | INFO    | Start execution of a Test Config
+2021-05-24 10:24:57,698 | INFO    | Eggplant DAI server http://192.168.214.170:8000/
+2021-05-24 10:24:57,699 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-24 10:24:57,699 | INFO    | Testconfig: TestConfigIntegration
+2021-05-24 10:24:57,821 | INFO    | GUI Report at: http://192.168.214.170:8000/controller/results/runs/f3fc33bd-44a0-4850-90b2-155a173ce01f
+2021-05-24 10:24:57,821 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': 'f3fc33bd-44a0-4850-90b2-155a173ce01f'}
+2021-05-24 10:24:57,839 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-24 10:24:57,840 | INFO    | Command line options specified: Namespace(verbosity=1, action='testconfig', URL='http://192.168.214.170:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='TestConfigIntegration', ei_server=None, ei_template=None)
+2021-05-24 10:25:56,680 | INFO    | Credentials specified on command line
+2021-05-24 10:25:56,681 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:25:56,681 | INFO    | Start execution of a Test Config
+2021-05-24 10:25:56,682 | INFO    | Eggplant DAI server http://192.168.214.170:8000/
+2021-05-24 10:25:56,682 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-24 10:25:56,682 | INFO    | Testconfig: ActionsConfig
+2021-05-24 10:25:56,791 | INFO    | GUI Report at: http://192.168.214.170:8000/controller/results/runs/6a018f4d-b4e7-4fb0-9897-46baf999d50b
+2021-05-24 10:25:56,791 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': '6a018f4d-b4e7-4fb0-9897-46baf999d50b'}
+2021-05-24 10:25:56,831 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-24 10:25:56,832 | INFO    | Command line options specified: Namespace(verbosity=1, action='testconfig', URL='http://192.168.214.170:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='ActionsConfig', ei_server=None, ei_template=None)
+2021-05-24 10:26:20,753 | INFO    | Credentials specified on command line
+2021-05-24 10:26:20,753 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:26:50,509 | INFO    | Credentials specified on command line
+2021-05-24 10:26:50,509 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:26:50,642 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-24 10:26:50,793 | ERROR   | An exception occurred: Failed to run model (400): {"message":"Bad Request","description":"Agent PhilippaCloud1 is not connected to the server"}
+Traceback (most recent call last):
+  File "main.py", line 232, in do_execution
+  File "dai_client.py", line 305, in run_model
+  File "dai_client.py", line 121, in _do_post
+dai_client.DAIClientException: Failed to run model (400): {"message":"Bad Request","description":"Agent PhilippaCloud1 is not connected to the server"}
+2021-05-24 10:26:50,794 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.170:8000', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='PhilippaCloud1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-24 10:27:03,721 | INFO    | Credentials specified on command line
+2021-05-24 10:27:03,721 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:27:03,886 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-24 10:27:04,170 | INFO    | Execution started information: {'processid': 1453804570, 'id': '3d2e4c4e-6dcf-4c22-b3ba-2091591092ff', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-24 10:27:04,188 | INFO    | Execution status: {'id': '3d2e4c4e-6dcf-4c22-b3ba-2091591092ff', 'starttime': '2021-05-24T10:27:04.126198+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-24 10:27:19,207 | INFO    | Execution status: {'id': '3d2e4c4e-6dcf-4c22-b3ba-2091591092ff', 'starttime': '2021-05-24T10:27:04.126198+01:00', 'endtime': '2021-05-24T09:27:04.403524+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1281, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-24T09:27:04.194503+00:00', 'endtime': '2021-05-24T09:27:04.398896+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-24 10:27:19,255 | ERROR   | An exception occurred: Failed to get model run timings for 1281: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1281: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-24 10:27:19,255 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.170:8000', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-24 10:27:59,923 | INFO    | Credentials specified on command line
+2021-05-24 10:27:59,924 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:28:00,062 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-24 10:28:00,318 | INFO    | Execution started information: {'processid': 1424507426, 'id': '4a06c628-07dd-4a47-83a1-d34984e739c2', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-24 10:28:00,335 | INFO    | Execution status: {'id': '4a06c628-07dd-4a47-83a1-d34984e739c2', 'starttime': '2021-05-24T10:28:00.279173+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-24 10:28:15,358 | INFO    | Execution status: {'id': '4a06c628-07dd-4a47-83a1-d34984e739c2', 'starttime': '2021-05-24T10:28:00.279173+01:00', 'endtime': '2021-05-24T09:28:00.516113+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1282, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-24T09:28:00.341065+00:00', 'endtime': '2021-05-24T09:28:00.510400+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-24 10:28:15,407 | ERROR   | An exception occurred: Failed to get model run timings for 1282: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1282: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-24 10:28:15,408 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.170:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-24 10:29:01,782 | INFO    | Credentials specified on command line
+2021-05-24 10:29:01,782 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:29:01,926 | ERROR   | An exception occurred: Failed to get access token: {"message": "Username or password incorrect"}
+Traceback (most recent call last):
+  File "main.py", line 222, in do_execution
+  File "dai_client.py", line 57, in __init__
+  File "dai_client.py", line 205, in _get_auth_token
+dai_client.DAIClientException: Failed to get access token: {"message": "Username or password incorrect"}
+
+2021-05-24 10:29:01,927 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='https://eval50.dai.eggplant.cloud/', username='philippa.merrill1@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='philippa.merrill1@eggplantsoftware.com', model='JenkinsIntegration', agent='PhilippaCloud1', suite='/Users/pmerrill/Documents/EggplantRepo/JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-24 10:32:43,428 | INFO    | Credentials specified on command line
+2021-05-24 10:32:43,428 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-24 10:32:43,570 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-24 10:32:43,834 | INFO    | Execution started information: {'processid': 503347073, 'id': 'e1d46470-f0e5-4f99-a559-cc2e56bcc775', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-24 10:32:43,853 | INFO    | Execution status: {'id': 'e1d46470-f0e5-4f99-a559-cc2e56bcc775', 'starttime': '2021-05-24T10:32:43.791647+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-24 10:32:58,878 | INFO    | Execution status: {'id': 'e1d46470-f0e5-4f99-a559-cc2e56bcc775', 'starttime': '2021-05-24T10:32:43.791647+01:00', 'endtime': '2021-05-24T09:32:44.035705+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1283, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-24T09:32:43.857793+00:00', 'endtime': '2021-05-24T09:32:44.029514+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-24 10:32:58,950 | ERROR   | An exception occurred: Failed to get model run timings for 1283: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1283: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-24 10:32:58,951 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.170:8000', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-26 09:55:10,495 | INFO    | Credentials specified on command line
+2021-05-26 09:55:10,496 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-26 09:55:10,672 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-26 09:55:10,982 | INFO    | Execution started information: {'processid': 905654401, 'id': '8cffd22b-7eb6-49b0-b279-970302842812', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-26 09:55:11,001 | INFO    | Execution status: {'id': '8cffd22b-7eb6-49b0-b279-970302842812', 'starttime': '2021-05-26T09:55:10.935024+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-26 09:55:26,023 | INFO    | Execution status: {'id': '8cffd22b-7eb6-49b0-b279-970302842812', 'starttime': '2021-05-26T09:55:10.935024+01:00', 'endtime': '2021-05-26T08:55:11.145214+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1288, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-26T08:55:11.006967+00:00', 'endtime': '2021-05-26T08:55:11.138332+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-26 09:55:26,094 | ERROR   | An exception occurred: Failed to get model run timings for 1288: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1288: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-26 09:55:26,094 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-26 09:58:01,701 | INFO    | Credentials specified on command line
+2021-05-26 09:58:01,702 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-26 09:58:01,879 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-26 09:58:02,196 | INFO    | Execution started information: {'processid': 744419235, 'id': '0aba6ded-1c7a-45eb-82f7-7c3fd1234d6f', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-26 09:58:02,215 | INFO    | Execution status: {'id': '0aba6ded-1c7a-45eb-82f7-7c3fd1234d6f', 'starttime': '2021-05-26T09:58:02.150214+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-26 09:58:17,233 | INFO    | Execution status: {'id': '0aba6ded-1c7a-45eb-82f7-7c3fd1234d6f', 'starttime': '2021-05-26T09:58:02.150214+01:00', 'endtime': '2021-05-26T08:58:02.365993+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1289, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-26T08:58:02.226574+00:00', 'endtime': '2021-05-26T08:58:02.358900+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-26 09:58:17,304 | ERROR   | An exception occurred: Failed to get model run timings for 1289: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1289: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-26 09:58:17,304 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-26 09:58:39,400 | INFO    | Credentials specified on command line
+2021-05-26 09:58:39,401 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-26 09:58:39,558 | INFO    | Model ID for JenkinsIntegration is 9
+2021-05-26 09:58:39,558 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-26 09:58:39,876 | INFO    | Execution started information: {'processid': 734296492, 'id': '106e78a8-bae5-4a0e-aba1-cb09ed2adb4d', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-26 09:58:39,893 | INFO    | Execution status: {'id': '106e78a8-bae5-4a0e-aba1-cb09ed2adb4d', 'starttime': '2021-05-26T09:58:39.827707+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-26 09:58:54,914 | INFO    | Execution status: {'id': '106e78a8-bae5-4a0e-aba1-cb09ed2adb4d', 'starttime': '2021-05-26T09:58:39.827707+01:00', 'endtime': '2021-05-26T08:58:40.038230+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1290, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-26T08:58:39.899306+00:00', 'endtime': '2021-05-26T08:58:40.030699+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-26 09:58:54,975 | ERROR   | An exception occurred: Failed to get model run timings for 1290: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1290: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-26 09:58:54,976 | INFO    | Command line options specified: Namespace(verbosity=2, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-26 10:57:03,552 | INFO    | Credentials specified on command line
+2021-05-26 10:57:03,554 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-26 10:57:03,856 | ERROR   | An exception occurred: Failed to get access token: {"message": "Username or password incorrect"}
+Traceback (most recent call last):
+  File "main.py", line 222, in do_execution
+  File "dai_client.py", line 57, in __init__
+  File "dai_client.py", line 205, in _get_auth_token
+dai_client.DAIClientException: Failed to get access token: {"message": "Username or password incorrect"}
+
+2021-05-26 10:57:03,856 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='https://eval50.dai.eggplant.cloud/', username='philippa.merrill1@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='philippa.merrill1@eggplantsoftware.com', model='JenkinsIntegration', agent='PhilippaCloud1', suite='/Users/pmerrill/Documents/EggplantRepo/JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-26 17:49:36,413 | INFO    | Credentials specified on command line
+2021-05-26 17:49:36,415 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-26 17:49:36,672 | INFO    | Model ID for JenkinsIntegration is 9
+2021-05-26 17:49:36,672 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-26 17:49:36,997 | INFO    | Execution started information: {'processid': 1290269330, 'id': '11e4e167-b6c0-4ba5-a1c9-d49f4b4dee0e', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-26 17:49:37,019 | INFO    | Execution status: {'id': '11e4e167-b6c0-4ba5-a1c9-d49f4b4dee0e', 'starttime': '2021-05-26T17:49:36.947783+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-26 17:49:52,041 | INFO    | Execution status: {'id': '11e4e167-b6c0-4ba5-a1c9-d49f4b4dee0e', 'starttime': '2021-05-26T17:49:36.947783+01:00', 'endtime': '2021-05-26T16:49:37.671801+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1293, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-26T16:49:37.161049+00:00', 'endtime': '2021-05-26T16:49:37.660436+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-26 17:49:52,095 | ERROR   | An exception occurred: Failed to get model run timings for 1293: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1293: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-26 17:49:52,096 | INFO    | Command line options specified: Namespace(verbosity=2, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-27 08:53:45,088 | INFO    | Credentials specified on command line
+2021-05-27 08:53:45,089 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 08:53:45,301 | INFO    | Model ID for JenkinsIntegration is 9
+2021-05-27 08:53:45,301 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-27 08:53:45,635 | INFO    | Execution started information: {'processid': 321837120, 'id': 'a24422e9-79c3-43d6-b5fb-314b493d8eb0', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-27 08:53:45,656 | INFO    | Execution status: {'id': 'a24422e9-79c3-43d6-b5fb-314b493d8eb0', 'starttime': '2021-05-27T08:53:45.588310+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-27 08:54:00,677 | INFO    | Execution status: {'id': 'a24422e9-79c3-43d6-b5fb-314b493d8eb0', 'starttime': '2021-05-27T08:53:45.588310+01:00', 'endtime': '2021-05-27T07:53:45.910111+01:00', 'status': 'Error', 'is_paused': False, 'runs': [{'id': 1294, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'ERROR', 'starttime': '2021-05-27T07:53:45.671436+00:00', 'endtime': '2021-05-27T07:53:45.902133+00:00', 'seed': 1, 'coverage': 0.0416667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-27 08:54:00,747 | ERROR   | An exception occurred: Failed to get model run timings for 1294: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+Traceback (most recent call last):
+  File "main.py", line 297, in do_execution
+  File "dai_client.py", line 758, in get_run_timings_list
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to get model run timings for 1294: {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+
+2021-05-27 08:54:00,747 | INFO    | Command line options specified: Namespace(verbosity=2, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='/JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-27 08:56:05,572 | INFO    | Credentials specified on command line
+2021-05-27 08:56:05,572 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 08:56:05,812 | INFO    | Model ID for JenkinsIntegration is 9
+2021-05-27 08:56:05,812 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-27 08:56:06,205 | INFO    | Execution started information: {'processid': 360592184, 'id': 'f1aca32a-f714-46cb-bade-d108e6b24b52', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-27 08:56:06,223 | INFO    | Execution status: {'id': 'f1aca32a-f714-46cb-bade-d108e6b24b52', 'starttime': '2021-05-27T08:56:06.156404+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-27 08:56:21,247 | INFO    | Execution status: {'id': 'f1aca32a-f714-46cb-bade-d108e6b24b52', 'starttime': '2021-05-27T08:56:06.156404+01:00', 'endtime': '2021-05-27T07:56:11.803829+01:00', 'status': 'Passed', 'is_paused': False, 'runs': [{'id': 1295, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'PASSED', 'starttime': '2021-05-27T07:56:06.236851+00:00', 'endtime': '2021-05-27T07:56:11.791567+00:00', 'seed': 1, 'coverage': 0.291667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-27 08:56:21,371 | INFO    | execution report for testcase run 1295
+2021-05-27 08:56:21,371 | INFO    | status:    PASSED
+2021-05-27 08:56:21,372 | INFO    | starttime: 2021-05-27T07:56:06.236851+00:00
+2021-05-27 08:56:21,372 | INFO    | endtime:   2021-05-27T07:56:11.791567+00:00
+2021-05-27 08:56:21,372 | INFO    | 
+Actions executed:
+2021-05-27 08:56:21,372 | INFO    | {'order': 0, 'state': 'Initial', 'action': 'LaunchApp', 'timing': 5.327}
+2021-05-27 08:56:21,372 | INFO    | {'order': 1, 'state': 'Start', 'action': 'Click Page', 'timing': 0.039}
+2021-05-27 08:56:21,372 | INFO    | {'order': 2, 'state': 'Middle', 'action': 'Click Page', 'timing': 0.022}
+2021-05-27 08:56:21,372 | INFO    | {'order': 3, 'state': 'End', 'action': 'Last Page', 'timing': 0.018}
+2021-05-27 08:56:21,372 | INFO    | {'order': 4, 'state': 'JenkinsIntegration', 'action': 'ExitApp', 'timing': 0.023}
+2021-05-27 08:56:21,372 | INFO    | 
+Execution Log:
+2021-05-27 08:56:21,372 | INFO    | Setting up coverage in database "ttdb"
+2021-05-27 08:56:21,372 | INFO    | Created test in database "ttdb" with test id 1295
+Loading tests with ids: ...,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279
+2021-05-27 08:56:21,373 | INFO    | Executing directed testcase "TESTCASE1"
+2021-05-27 08:56:21,373 | INFO    | 
+Starting in state "Initial" 
+2021-05-27 08:56:21,373 | INFO    | Executing state "Initial"'s action "LaunchApp" 
+2021-05-27 08:56:21,373 | INFO    | Executing Sensetalk snippet Handlers.script:step_1
+2021-05-27 08:56:21,373 | INFO    | 27/05/2021, 08:56:11	Log		Step 1 reached
+2021-05-27 08:56:21,373 | INFO    | Executed Sensetalk snippet Handlers.script:step_1
+2021-05-27 08:56:21,373 | INFO    | Execution time for action "LaunchApp" 5.327 seconds
+2021-05-27 08:56:21,373 | INFO    | 
+Transit to state "Start" 
+2021-05-27 08:56:21,373 | INFO    | Executing state "Start"'s action "Click Page" 
+2021-05-27 08:56:21,373 | INFO    | Executing Sensetalk snippet Handlers.script:step_2
+2021-05-27 08:56:21,373 | INFO    | 27/05/2021, 08:56:11	Log		Step 2 reached
+2021-05-27 08:56:21,373 | INFO    | Executed Sensetalk snippet Handlers.script:step_2
+2021-05-27 08:56:21,373 | INFO    | Execution time for action "Click Page" 0.039 seconds
+2021-05-27 08:56:21,374 | INFO    | 
+Transit to state "Middle" 
+2021-05-27 08:56:21,374 | INFO    | Executing state "Middle"'s action "Click Page" 
+2021-05-27 08:56:21,374 | INFO    | Executing Sensetalk snippet Handlers.script:step_3
+2021-05-27 08:56:21,374 | INFO    | 27/05/2021, 08:56:11	Log		Step 3 reached
+2021-05-27 08:56:21,374 | INFO    | Executed Sensetalk snippet Handlers.script:step_3
+2021-05-27 08:56:21,374 | INFO    | Execution time for action "Click Page" 0.022 seconds
+2021-05-27 08:56:21,374 | INFO    | 
+Transit to state "End" 
+2021-05-27 08:56:21,374 | INFO    | Executing state "End"'s action "Last Page" 
+2021-05-27 08:56:21,374 | INFO    | Executing Sensetalk snippet Handlers.script:step_4
+2021-05-27 08:56:21,374 | INFO    | 27/05/2021, 08:56:11	Log		Step 4 reached
+2021-05-27 08:56:21,374 | INFO    | Executed Sensetalk snippet Handlers.script:step_4
+2021-05-27 08:56:21,374 | INFO    | Execution time for action "Last Page" 0.018 seconds
+2021-05-27 08:56:21,374 | INFO    | Executing global action "ExitApp" 
+2021-05-27 08:56:21,374 | INFO    | Executing Sensetalk snippet Handlers.script:step_5
+2021-05-27 08:56:21,374 | INFO    | 27/05/2021, 08:56:11	LogSuccess		App exited
+2021-05-27 08:56:21,375 | INFO    | Executed Sensetalk snippet Handlers.script:step_5
+2021-05-27 08:56:21,375 | INFO    | Execution time for action "ExitApp" 0.023 seconds
+2021-05-27 08:56:21,375 | INFO    | Transit to state "Cleanup" 
+2021-05-27 08:56:21,375 | INFO    | Writing to coverage database "ttdb" for model JenkinsIntegration
+2021-05-27 08:56:21,375 | INFO    | PASSED seed=1, 0 errors, 0 warnings, 5 state transitions, 5 actions executed
+EXECUTION COMPLETE
+
+2021-05-27 08:56:21,375 | INFO    | Passed
+2021-05-27 08:56:21,375 | ERROR   | An unexpected exception occurred: local variable 'eio' referenced before assignment
+Traceback (most recent call last):
+  File "main.py", line 315, in do_execution
+UnboundLocalError: local variable 'eio' referenced before assignment
+2021-05-27 08:56:21,376 | INFO    | Command line options specified: Namespace(verbosity=2, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='/Users/pmerrill/Documents/JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-27 09:12:20,786 | INFO    | Credentials specified on command line
+2021-05-27 09:12:20,788 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 09:12:20,953 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-27 09:12:21,266 | INFO    | Execution started information: {'processid': 1414461238, 'id': 'c0a4bcf5-0d1a-4c65-b3c5-e27257856e84', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-27 09:12:21,284 | INFO    | Execution status: {'id': 'c0a4bcf5-0d1a-4c65-b3c5-e27257856e84', 'starttime': '2021-05-27T09:12:21.225301+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-27 09:12:36,311 | INFO    | Execution status: {'id': 'c0a4bcf5-0d1a-4c65-b3c5-e27257856e84', 'starttime': '2021-05-27T09:12:21.225301+01:00', 'endtime': '2021-05-27T08:12:26.650568+01:00', 'status': 'Passed', 'is_paused': False, 'runs': [{'id': 1296, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'PASSED', 'starttime': '2021-05-27T08:12:21.294231+00:00', 'endtime': '2021-05-27T08:12:26.635980+00:00', 'seed': 1, 'coverage': 0.291667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-27 09:12:36,436 | INFO    | execution report for testcase run 1296
+2021-05-27 09:12:36,436 | INFO    | status:    PASSED
+2021-05-27 09:12:36,436 | INFO    | starttime: 2021-05-27T08:12:21.294231+00:00
+2021-05-27 09:12:36,436 | INFO    | endtime:   2021-05-27T08:12:26.635980+00:00
+2021-05-27 09:12:36,437 | INFO    | 
+Actions executed:
+2021-05-27 09:12:36,437 | INFO    | LaunchApp
+2021-05-27 09:12:36,437 | INFO    | Click Page
+2021-05-27 09:12:36,437 | INFO    | Click Page
+2021-05-27 09:12:36,437 | INFO    | Last Page
+2021-05-27 09:12:36,437 | INFO    | ExitApp
+2021-05-27 09:12:36,437 | INFO    | 
+Execution Log:
+2021-05-27 09:12:36,437 | INFO    | PASSED seed=1, 0 errors, 0 warnings, 5 state transitions, 5 actions executed
+EXECUTION COMPLETE
+
+2021-05-27 09:12:36,437 | INFO    | Passed
+2021-05-27 09:12:36,437 | ERROR   | An unexpected exception occurred: local variable 'eio' referenced before assignment
+Traceback (most recent call last):
+  File "main.py", line 315, in do_execution
+UnboundLocalError: local variable 'eio' referenced before assignment
+2021-05-27 09:12:36,438 | INFO    | Command line options specified: Namespace(verbosity=1, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='/Users/pmerrill/Documents/JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-27 09:17:40,662 | INFO    | Credentials specified on command line
+2021-05-27 09:17:40,663 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 09:17:40,664 | INFO    | Start execution of a Test Config
+2021-05-27 09:17:40,664 | INFO    | Eggplant DAI server http://192.168.214.181:8000/
+2021-05-27 09:17:40,664 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-27 09:17:40,664 | INFO    | Testconfig: IntegrationConfig
+2021-05-27 09:17:40,842 | INFO    | GUI Report at: http://192.168.214.181:8000/controller/results/runs/f4b7a7f9-f6ca-4243-ba0b-657e1fe6aedf
+2021-05-27 09:17:40,842 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': 'f4b7a7f9-f6ca-4243-ba0b-657e1fe6aedf'}
+2021-05-27 09:17:40,973 | INFO    | Testconfig task: {'created_datetime': '2021-05-27T08:17:40.837487+00:00', 'runstatus': 'PENDING', 'test_config_id': 'a6e9c160-9689-41b6-a170-5d888f8a67be', 'task_instance_id': 'f4b7a7f9-f6ca-4243-ba0b-657e1fe6aedf', 'updated_datetime': '2021-05-27T08:17:40.837487+00:00'}
+2021-05-27 09:17:40,973 | INFO    | Testconfig task Summary: {'total_steps_in_test_config': 0, 'test_config_total_runs_complete': 0, 'test_config_total_runs_passes': 0, 'test_config_total_runs_failures': 0, 'test_config_total_runs_incomplete': 0, 'test_config_total_runs_cancelled': 0, 'test_config_total_runs_in_error': 0, 'total_execution_time_secs': 0.0, 'task_instance_steps_completed': 0, 'sut_used': ''}
+2021-05-27 09:17:56,011 | INFO    | Testconfig task: {'created_datetime': '2021-05-27T08:17:40.837487+00:00', 'runstatus': 'ERROR', 'test_config_id': 'a6e9c160-9689-41b6-a170-5d888f8a67be', 'task_instance_id': 'f4b7a7f9-f6ca-4243-ba0b-657e1fe6aedf', 'updated_datetime': '2021-05-27T08:17:41.321858+00:00'}
+2021-05-27 09:17:56,012 | INFO    | Testconfig task Summary: {'total_steps_in_test_config': 0, 'test_config_total_runs_complete': 0, 'test_config_total_runs_passes': 0, 'test_config_total_runs_failures': 0, 'test_config_total_runs_incomplete': 0, 'test_config_total_runs_cancelled': 0, 'test_config_total_runs_in_error': 0, 'total_execution_time_secs': 0.0, 'task_instance_steps_completed': 0, 'sut_used': ''}
+2021-05-27 09:17:56,012 | INFO    | 
+Finished with status: ERROR
+2021-05-27 09:17:56,057 | INFO    | Command line options specified: Namespace(verbosity=1, action='testconfig', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-27 09:18:20,490 | INFO    | Credentials specified on command line
+2021-05-27 09:18:20,490 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 09:18:20,491 | INFO    | Start execution of a Test Config
+2021-05-27 09:18:20,491 | INFO    | Eggplant DAI server http://192.168.214.181:8000/
+2021-05-27 09:18:20,491 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-27 09:18:20,491 | INFO    | Testconfig: IntegrationConfig
+2021-05-27 09:18:20,643 | INFO    | GUI Report at: http://192.168.214.181:8000/controller/results/runs/5f6d413f-af76-4405-82f1-925a67905dc9
+2021-05-27 09:18:20,643 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': '5f6d413f-af76-4405-82f1-925a67905dc9'}
+2021-05-27 09:18:20,711 | INFO    | Testconfig task: {'created_datetime': '2021-05-27T08:18:20.641743+00:00', 'runstatus': 'PENDING', 'test_config_id': 'a6e9c160-9689-41b6-a170-5d888f8a67be', 'task_instance_id': '5f6d413f-af76-4405-82f1-925a67905dc9', 'updated_datetime': '2021-05-27T08:18:20.641743+00:00'}
+2021-05-27 09:18:20,711 | INFO    | Testconfig task Summary: {'total_steps_in_test_config': 0, 'test_config_total_runs_complete': 0, 'test_config_total_runs_passes': 0, 'test_config_total_runs_failures': 0, 'test_config_total_runs_incomplete': 0, 'test_config_total_runs_cancelled': 0, 'test_config_total_runs_in_error': 0, 'total_execution_time_secs': 0.0, 'task_instance_steps_completed': 0, 'sut_used': ''}
+2021-05-27 09:18:35,748 | INFO    | Testconfig task: {'created_datetime': '2021-05-27T08:18:20.641743+00:00', 'runstatus': 'ERROR', 'test_config_id': 'a6e9c160-9689-41b6-a170-5d888f8a67be', 'task_instance_id': '5f6d413f-af76-4405-82f1-925a67905dc9', 'updated_datetime': '2021-05-27T08:18:21.094934+00:00'}
+2021-05-27 09:18:35,749 | INFO    | Testconfig task Summary: {'total_steps_in_test_config': 0, 'test_config_total_runs_complete': 0, 'test_config_total_runs_passes': 0, 'test_config_total_runs_failures': 0, 'test_config_total_runs_incomplete': 0, 'test_config_total_runs_cancelled': 0, 'test_config_total_runs_in_error': 0, 'total_execution_time_secs': 0.0, 'task_instance_steps_completed': 0, 'sut_used': ''}
+2021-05-27 09:18:35,749 | INFO    | 
+Finished with status: ERROR
+2021-05-27 09:18:35,788 | INFO    | Command line options specified: Namespace(verbosity=2, action='testconfig', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-27 09:22:30,593 | INFO    | Credentials specified on command line
+2021-05-27 09:22:30,594 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 09:22:30,801 | INFO    | Model ID for JenkinsIntegration is 9
+2021-05-27 09:22:30,801 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-27 09:22:31,223 | INFO    | Execution started information: {'processid': 1720753299, 'id': 'a21c6b2a-412b-44ab-9c07-77f8746f7577', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-27 09:22:31,249 | INFO    | Execution status: {'id': 'a21c6b2a-412b-44ab-9c07-77f8746f7577', 'starttime': '2021-05-27T09:22:31.151714+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-27 09:22:46,271 | INFO    | Execution status: {'id': 'a21c6b2a-412b-44ab-9c07-77f8746f7577', 'starttime': '2021-05-27T09:22:31.151714+01:00', 'endtime': '2021-05-27T08:22:36.784900+01:00', 'status': 'Passed', 'is_paused': False, 'runs': [{'id': 1297, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'PASSED', 'starttime': '2021-05-27T08:22:31.263751+00:00', 'endtime': '2021-05-27T08:22:36.768255+00:00', 'seed': 1, 'coverage': 0.291667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-27 09:22:46,394 | INFO    | execution report for testcase run 1297
+2021-05-27 09:22:46,394 | INFO    | status:    PASSED
+2021-05-27 09:22:46,394 | INFO    | starttime: 2021-05-27T08:22:31.263751+00:00
+2021-05-27 09:22:46,394 | INFO    | endtime:   2021-05-27T08:22:36.768255+00:00
+2021-05-27 09:22:46,394 | INFO    | 
+Actions executed:
+2021-05-27 09:22:46,394 | INFO    | {'order': 0, 'state': 'Initial', 'action': 'LaunchApp', 'timing': 5.293}
+2021-05-27 09:22:46,394 | INFO    | {'order': 1, 'state': 'Start', 'action': 'Click Page', 'timing': 0.015}
+2021-05-27 09:22:46,394 | INFO    | {'order': 2, 'state': 'Middle', 'action': 'Click Page', 'timing': 0.02}
+2021-05-27 09:22:46,394 | INFO    | {'order': 3, 'state': 'End', 'action': 'Last Page', 'timing': 0.017}
+2021-05-27 09:22:46,394 | INFO    | {'order': 4, 'state': 'JenkinsIntegration', 'action': 'ExitApp', 'timing': 0.017}
+2021-05-27 09:22:46,395 | INFO    | 
+Execution Log:
+2021-05-27 09:22:46,395 | INFO    | Setting up coverage in database "ttdb"
+2021-05-27 09:22:46,395 | INFO    | Created test in database "ttdb" with test id 1297
+Loading tests with ids: ...,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279
+2021-05-27 09:22:46,395 | INFO    | Executing directed testcase "TESTCASE1"
+2021-05-27 09:22:46,395 | INFO    | 
+Starting in state "Initial" 
+2021-05-27 09:22:46,395 | INFO    | Executing state "Initial"'s action "LaunchApp" 
+2021-05-27 09:22:46,395 | INFO    | Executing Sensetalk snippet Handlers.script:step_1
+2021-05-27 09:22:46,395 | INFO    | 27/05/2021, 09:22:36	Log		Step 1 reached
+2021-05-27 09:22:46,395 | INFO    | Executed Sensetalk snippet Handlers.script:step_1
+2021-05-27 09:22:46,395 | INFO    | Execution time for action "LaunchApp" 5.293 seconds
+2021-05-27 09:22:46,395 | INFO    | 
+Transit to state "Start" 
+2021-05-27 09:22:46,395 | INFO    | Executing state "Start"'s action "Click Page" 
+2021-05-27 09:22:46,395 | INFO    | Executing Sensetalk snippet Handlers.script:step_2
+2021-05-27 09:22:46,395 | INFO    | 27/05/2021, 09:22:36	Log		Step 2 reached
+2021-05-27 09:22:46,396 | INFO    | Executed Sensetalk snippet Handlers.script:step_2
+2021-05-27 09:22:46,396 | INFO    | Execution time for action "Click Page" 0.015 seconds
+2021-05-27 09:22:46,396 | INFO    | 
+Transit to state "Middle" 
+2021-05-27 09:22:46,396 | INFO    | Executing state "Middle"'s action "Click Page" 
+2021-05-27 09:22:46,396 | INFO    | Executing Sensetalk snippet Handlers.script:step_3
+2021-05-27 09:22:46,396 | INFO    | 27/05/2021, 09:22:36	Log		Step 3 reached
+2021-05-27 09:22:46,396 | INFO    | Executed Sensetalk snippet Handlers.script:step_3
+2021-05-27 09:22:46,396 | INFO    | Execution time for action "Click Page" 0.020 seconds
+2021-05-27 09:22:46,396 | INFO    | 
+Transit to state "End" 
+2021-05-27 09:22:46,397 | INFO    | Executing state "End"'s action "Last Page" 
+2021-05-27 09:22:46,397 | INFO    | Executing Sensetalk snippet Handlers.script:step_4
+2021-05-27 09:22:46,397 | INFO    | 27/05/2021, 09:22:36	Log		Step 4 reached
+2021-05-27 09:22:46,397 | INFO    | Executed Sensetalk snippet Handlers.script:step_4
+2021-05-27 09:22:46,397 | INFO    | Execution time for action "Last Page" 0.017 seconds
+2021-05-27 09:22:46,397 | INFO    | Executing global action "ExitApp" 
+2021-05-27 09:22:46,397 | INFO    | Executing Sensetalk snippet Handlers.script:step_5
+2021-05-27 09:22:46,397 | INFO    | 27/05/2021, 09:22:36	LogSuccess		App exited
+2021-05-27 09:22:46,397 | INFO    | Executed Sensetalk snippet Handlers.script:step_5
+2021-05-27 09:22:46,397 | INFO    | Execution time for action "ExitApp" 0.017 seconds
+2021-05-27 09:22:46,397 | INFO    | Transit to state "Cleanup" 
+2021-05-27 09:22:46,397 | INFO    | Writing to coverage database "ttdb" for model JenkinsIntegration
+2021-05-27 09:22:46,397 | INFO    | PASSED seed=1, 0 errors, 0 warnings, 5 state transitions, 5 actions executed
+EXECUTION COMPLETE
+
+2021-05-27 09:22:46,397 | INFO    | Passed
+2021-05-27 09:22:46,398 | ERROR   | An unexpected exception occurred: local variable 'eio' referenced before assignment
+Traceback (most recent call last):
+  File "main.py", line 315, in do_execution
+UnboundLocalError: local variable 'eio' referenced before assignment
+2021-05-27 09:22:46,398 | INFO    | Command line options specified: Namespace(verbosity=2, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='/Users/pmerrill/Documents/JenkinsIntegration.suite', ei_server=None, ei_template=None)
+2021-05-27 15:41:28,010 | INFO    | Credentials specified on command line
+2021-05-27 15:41:28,011 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 15:41:28,012 | INFO    | Start execution of a Test Config
+2021-05-27 15:41:28,012 | INFO    | Eggplant DAI server http://192.168.214.181:8000/
+2021-05-27 15:41:28,012 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-27 15:41:28,012 | INFO    | Testconfig: IntegrationConfig
+2021-05-27 15:41:28,602 | INFO    | GUI Report at: http://192.168.214.181:8000/controller/results/runs/f1b227a9-f6ff-45b3-9835-4f811f5dbbfc
+2021-05-27 15:41:28,602 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': 'f1b227a9-f6ff-45b3-9835-4f811f5dbbfc'}
+2021-05-27 15:41:28,674 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-27 15:41:28,675 | INFO    | Command line options specified: Namespace(verbosity=2, action='testconfig', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-27 15:43:04,602 | INFO    | Credentials specified on command line
+2021-05-27 15:43:04,603 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 15:43:04,603 | INFO    | Start execution of a Test Config
+2021-05-27 15:43:04,603 | INFO    | Eggplant DAI server http://192.168.214.181:8000/
+2021-05-27 15:43:04,603 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-27 15:43:04,603 | INFO    | Testconfig: IntegrationConfig
+2021-05-27 15:43:04,740 | INFO    | GUI Report at: http://192.168.214.181:8000/controller/results/runs/5e473a4d-ef3f-49f4-81cf-c661101127ad
+2021-05-27 15:43:04,740 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': '5e473a4d-ef3f-49f4-81cf-c661101127ad'}
+2021-05-27 15:43:04,755 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-27 15:43:04,755 | INFO    | Command line options specified: Namespace(verbosity=2, action='testconfig', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-27 15:43:10,529 | INFO    | Credentials specified on command line
+2021-05-27 15:43:10,529 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 15:43:10,530 | INFO    | Start execution of a Test Config
+2021-05-27 15:43:10,530 | INFO    | Eggplant DAI server http://192.168.214.181:8000/
+2021-05-27 15:43:10,530 | INFO    | Username: philippa.merrill@eggplantsoftware.com
+2021-05-27 15:43:10,530 | INFO    | Testconfig: IntegrationConfig
+2021-05-27 15:43:10,669 | INFO    | GUI Report at: http://192.168.214.181:8000/controller/results/runs/10caf4b3-2d97-4657-a3f0-07589f089499
+2021-05-27 15:43:10,669 | INFO    | Execution started information: {'task_id': None, 'task_instance_id': '10caf4b3-2d97-4657-a3f0-07589f089499'}
+2021-05-27 15:43:10,689 | ERROR   | An exception occurred: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+Traceback (most recent call last):
+  File "main.py", line 174, in do_execution
+  File "dai_client.py", line 1024, in myget_testconfigtask
+  File "dai_client.py", line 86, in _do_get
+dai_client.DAIClientException: Failed to Get a single test config task: {"message": "The test config task doesn't exist"}
+
+2021-05-27 15:43:10,690 | INFO    | Command line options specified: Namespace(verbosity=2, action='testconfig', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testconfigname='IntegrationConfig', ei_server=None, ei_template=None)
+2021-05-27 16:06:49,882 | INFO    | Credentials specified on command line
+2021-05-27 16:06:49,883 | INFO    | Checking /Users/pmerrill/Documents/DAIRunner_Mac/config.ini for possible executions
+2021-05-27 16:06:50,292 | INFO    | Model ID for JenkinsIntegration is 9
+2021-05-27 16:06:50,292 | INFO    | Running testcase TESTCASE1 of model JenkinsIntegration
+2021-05-27 16:06:50,586 | INFO    | Execution started information: {'processid': 347192286, 'id': '7a1a2e40-cb89-44d0-813e-af1e72ead6b7', 'iterations': 1, 'agent': 'philippamerrill1'}
+2021-05-27 16:06:50,601 | INFO    | Execution status: {'id': '7a1a2e40-cb89-44d0-813e-af1e72ead6b7', 'starttime': '2021-05-27T16:06:50.534602+01:00', 'endtime': None, 'status': 'Running', 'is_paused': False, 'runs': []}
+2021-05-27 16:07:05,617 | INFO    | Execution status: {'id': '7a1a2e40-cb89-44d0-813e-af1e72ead6b7', 'starttime': '2021-05-27T16:06:50.534602+01:00', 'endtime': '2021-05-27T15:06:55.964085+01:00', 'status': 'Passed', 'is_paused': False, 'runs': [{'id': 1304, 'hierarchyid': 3047, 'modelname': 'JenkinsIntegration', 'groupid': 1, 'teststatus': 'PASSED', 'starttime': '2021-05-27T15:06:50.611181+00:00', 'endtime': '2021-05-27T15:06:55.952906+00:00', 'seed': 1, 'coverage': 0.291667, 'logfile': '', 'usedtests': '227,228,229,230,231,232,233,234,466,468,1146,1147,1148,1149,1150,1151,1152,1153,1154,1246,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279', 'events': True, 'runtype': 'directed', 'testcase': 'TESTCASE1', 'testconfigtask': {}, 'step': 0, 'failedaction': None, 'scriptname': None, 'suitename': None}]}
+2021-05-27 16:07:05,719 | INFO    | execution report for testcase run 1304
+2021-05-27 16:07:05,719 | INFO    | status:    PASSED
+2021-05-27 16:07:05,719 | INFO    | starttime: 2021-05-27T15:06:50.611181+00:00
+2021-05-27 16:07:05,719 | INFO    | endtime:   2021-05-27T15:06:55.952906+00:00
+2021-05-27 16:07:05,719 | INFO    | 
+Actions executed:
+2021-05-27 16:07:05,719 | INFO    | {'order': 0, 'state': 'Initial', 'action': 'LaunchApp', 'timing': 5.191}
+2021-05-27 16:07:05,719 | INFO    | {'order': 1, 'state': 'Start', 'action': 'Click Page', 'timing': 0.011}
+2021-05-27 16:07:05,719 | INFO    | {'order': 2, 'state': 'Middle', 'action': 'Click Page', 'timing': 0.016}
+2021-05-27 16:07:05,719 | INFO    | {'order': 3, 'state': 'End', 'action': 'Last Page', 'timing': 0.015}
+2021-05-27 16:07:05,719 | INFO    | {'order': 4, 'state': 'JenkinsIntegration', 'action': 'ExitApp', 'timing': 0.014}
+2021-05-27 16:07:05,720 | INFO    | 
+Execution Log:
+2021-05-27 16:07:05,720 | INFO    | Setting up coverage in database "ttdb"
+2021-05-27 16:07:05,720 | INFO    | Created test in database "ttdb" with test id 1304
+Loading tests with ids: ...,1258,1259,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276,1279
+2021-05-27 16:07:05,720 | INFO    | Executing directed testcase "TESTCASE1"
+2021-05-27 16:07:05,720 | INFO    | 
+Starting in state "Initial" 
+2021-05-27 16:07:05,720 | INFO    | Executing state "Initial"'s action "LaunchApp" 
+2021-05-27 16:07:05,720 | INFO    | Executing Sensetalk snippet Handlers.script:step_1
+2021-05-27 16:07:05,720 | INFO    | 27/05/2021, 16:06:55	Log		Step 1 reached
+2021-05-27 16:07:05,720 | INFO    | Executed Sensetalk snippet Handlers.script:step_1
+2021-05-27 16:07:05,720 | INFO    | Execution time for action "LaunchApp" 5.191 seconds
+2021-05-27 16:07:05,720 | INFO    | 
+Transit to state "Start" 
+2021-05-27 16:07:05,720 | INFO    | Executing state "Start"'s action "Click Page" 
+2021-05-27 16:07:05,720 | INFO    | Executing Sensetalk snippet Handlers.script:step_2
+2021-05-27 16:07:05,720 | INFO    | 27/05/2021, 16:06:55	Log		Step 2 reached
+2021-05-27 16:07:05,720 | INFO    | Executed Sensetalk snippet Handlers.script:step_2
+2021-05-27 16:07:05,720 | INFO    | Execution time for action "Click Page" 0.011 seconds
+2021-05-27 16:07:05,720 | INFO    | 
+Transit to state "Middle" 
+2021-05-27 16:07:05,721 | INFO    | Executing state "Middle"'s action "Click Page" 
+2021-05-27 16:07:05,721 | INFO    | Executing Sensetalk snippet Handlers.script:step_3
+2021-05-27 16:07:05,721 | INFO    | 27/05/2021, 16:06:55	Log		Step 3 reached
+2021-05-27 16:07:05,721 | INFO    | Executed Sensetalk snippet Handlers.script:step_3
+2021-05-27 16:07:05,721 | INFO    | Execution time for action "Click Page" 0.016 seconds
+2021-05-27 16:07:05,721 | INFO    | 
+Transit to state "End" 
+2021-05-27 16:07:05,721 | INFO    | Executing state "End"'s action "Last Page" 
+2021-05-27 16:07:05,721 | INFO    | Executing Sensetalk snippet Handlers.script:step_4
+2021-05-27 16:07:05,721 | INFO    | 27/05/2021, 16:06:55	Log		Step 4 reached
+2021-05-27 16:07:05,721 | INFO    | Executed Sensetalk snippet Handlers.script:step_4
+2021-05-27 16:07:05,721 | INFO    | Execution time for action "Last Page" 0.015 seconds
+2021-05-27 16:07:05,721 | INFO    | Executing global action "ExitApp" 
+2021-05-27 16:07:05,721 | INFO    | Executing Sensetalk snippet Handlers.script:step_5
+2021-05-27 16:07:05,721 | INFO    | 27/05/2021, 16:06:55	LogSuccess		App exited
+2021-05-27 16:07:05,722 | INFO    | Executed Sensetalk snippet Handlers.script:step_5
+2021-05-27 16:07:05,722 | INFO    | Execution time for action "ExitApp" 0.014 seconds
+2021-05-27 16:07:05,722 | INFO    | Transit to state "Cleanup" 
+2021-05-27 16:07:05,722 | INFO    | Writing to coverage database "ttdb" for model JenkinsIntegration
+2021-05-27 16:07:05,722 | INFO    | PASSED seed=1, 0 errors, 0 warnings, 5 state transitions, 5 actions executed
+EXECUTION COMPLETE
+
+2021-05-27 16:07:05,722 | INFO    | Passed
+2021-05-27 16:07:05,722 | ERROR   | An unexpected exception occurred: local variable 'eio' referenced before assignment
+Traceback (most recent call last):
+  File "main.py", line 315, in do_execution
+UnboundLocalError: local variable 'eio' referenced before assignment
+2021-05-27 16:07:05,722 | INFO    | Command line options specified: Namespace(verbosity=2, action='testcase', URL='http://192.168.214.181:8000/', username='philippa.merrill@eggplantsoftware.com', password='** masked **', testcase='TESTCASE1', group='DAITest', model='JenkinsIntegration', agent='philippamerrill1', suite='/Users/pmerrill/Documents/JenkinsIntegration.suite', ei_server=None, ei_template=None)
